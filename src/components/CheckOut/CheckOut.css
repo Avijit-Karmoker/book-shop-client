@@ -1,0 +1,14 @@
+.checkOut{
+    width: 90%;
+    margin:auto;
+}
+
+.button1{
+    background-color: #6946f4;
+    color: #fff;
+    padding: 5px 30px;
+    float: right;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}

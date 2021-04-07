@@ -1,0 +1,24 @@
+.login {
+  text-align: center;
+}
+
+.login-type {
+  border: 1px solid darkgray;
+  border-radius: 50px;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.login-type img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15%;
+}
+
+.login-type h5{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 20px;
+}

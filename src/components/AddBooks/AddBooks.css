@@ -1,0 +1,27 @@
+.add-form{
+    width: 90%;
+    margin: auto;
+}
+
+.book-name{
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.file{
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.button{
+    background-color: #6946f4;
+    color: #fff;
+    padding: 5px 30px;
+    float: right;
+    margin-right: 5%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
