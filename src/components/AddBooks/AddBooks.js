@@ -15,7 +15,7 @@ const AddBooks = () => {
       imageURL: imageURL,
       Price: data.Price,
     };
-    const url = `http://localhost:5000/addEvent`;
+    const url = `https://lit-cove-73709.herokuapp.com/addEvent`;
 
     fetch(url, {
       method: "POST",
