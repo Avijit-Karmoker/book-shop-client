@@ -17,7 +17,7 @@ const Address = () => {
   const onSubmit = (data) => {
     const orderDetails = { name: name, email: email, image: imageURL, products: _id, shipment: data, orderTime: new Date()};
 
-    fetch('https://lit-cove-73709.herokuapp.com/addOrder', {
+    fetch('https://mysterious-brook-66929.herokuapp.com/addOrder', {
       method: 'POST',
       headers: {
         "Content-Type": "application/json"

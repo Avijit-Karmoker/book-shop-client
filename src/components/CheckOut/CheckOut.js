@@ -10,7 +10,7 @@ const CheckOut = () => {
   const history = useHistory();
 
   useEffect(() => {
-    fetch(`https://lit-cove-73709.herokuapp.com/product/${_id}`)
+    fetch(`https://mysterious-brook-66929.herokuapp.com/product/${_id}`)
       .then((res) => res.json())
       .then((data) => {
         setBook(data);

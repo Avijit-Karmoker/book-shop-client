@@ -8,14 +8,14 @@ const ManageBooks = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    fetch("https://lit-cove-73709.herokuapp.com/events")
+    fetch("https://mysterious-brook-66929.herokuapp.com/events")
       .then((response) => response.json())
       .then((data) => setBooks(data));
   }, []);
 
   const handleDelete = (id) => {
     console.log(id);
-    fetch(`https://lit-cove-73709.herokuapp.com/delete/${id}`, {
+    fetch(`https://localhost:5000/delete/${id}`, {
       method: "DELETE"
     })
     .then(res => res.json())
