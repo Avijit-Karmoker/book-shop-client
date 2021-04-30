@@ -4,4 +4,4 @@ So the benefit of this website
 2. He can delete a product from this web site.
 3 A buyer can buy a product from this website & owner can see his address to send his parcel for home delivery.
 
-live link of this we: https://assignment-10-98703.firebaseapp.com/
+live link of this we: https://assignment-10-7b706.firebaseapp.com/ 
